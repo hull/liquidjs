@@ -55,7 +55,7 @@ describe('filters', function () {
       {%- for item in everything -%}
       - {{ item }}
       {% endfor -%}`,
-      `- apples
+    `- apples
       - oranges
       - peaches
       - carrots
@@ -71,7 +71,7 @@ describe('filters', function () {
       {%- for item in everything -%}
       - {{ item }}
       {% endfor -%}`,
-      `- apples
+    `- apples
       - oranges
       - peaches
       - carrots
